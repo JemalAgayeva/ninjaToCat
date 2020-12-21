@@ -1,0 +1,23 @@
+*{
+    box-sizing:border-box;
+    margin: 0 auto;
+}
+body{
+    width: 950px;
+    min-height: 600px;
+    margin: 0 auto;
+    background-color: rgb(159, 158, 163);
+
+}
+#grid {
+    width: 900px;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(5, 0fr);
+    grid-row-gap: 5px;
+    margin: 100px;
+    position: absolute;
+}
+img{
+    width: 400px;
+}
